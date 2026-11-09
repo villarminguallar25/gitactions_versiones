@@ -1,0 +1,11 @@
+name: Github Action de prueba
+on: 
+  push:
+
+jobs:
+  mostrar_mensaje:
+    runs-on: ubuntu-latest
+    steps:
+    -name: Escribir saludo
+    run:
+      echo "Hola, para ti mi cola"
